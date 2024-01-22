@@ -5,5 +5,12 @@
     "description": "A web interface for GPS data IO",
     "permissions": [
         "geolocation"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ]
+        }
     ]
 }
