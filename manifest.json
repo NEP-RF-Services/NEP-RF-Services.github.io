@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "GPS Web Interface",
+    "version": "1.0.0",
+    "description": "A web interface for GPS data IO",
+    "permissions": [
+        "geolocation"
+    ]
+}
